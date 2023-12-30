@@ -1,1 +1,29 @@
-// console.log(demo1.name);
+// first task- add number to string
+  let demo="Hello World"+11;
+  console.log(demo);
+
+//Second task- find type of data
+  console.log(typeof(demo));
+
+//Third task- create object
+  const demo1={
+    name:"Saurabh",
+    age:21,
+    gender:"Male"
+  }
+  console.log(demo1.name);
+
+
+//Fourth task- add data to object
+  demo1["bhai"]=10;
+  console.log(demo1);
+
+// Fifth task- create object dictionary
+  const dictionary={
+    appreciate:"recognize the full worth of",
+    ataraxia:"a state of",
+    good:"nice",
+    healthy:"good body fitness",
+    stay:"leaving inn present"
+    }
+  console.log(dictionary);
