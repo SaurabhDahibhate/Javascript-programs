@@ -1,0 +1,14 @@
+User login System
+
+let user=prompt("enter user name");
+let pass=prompt("enter password");
+
+if(user=="Saurabh" && pass=="Saurabh@123"){
+  console.log("Login Successful");
+}else if(user=="Saurabh"){
+  console.log("Wrong Password");
+}else if(pass=="Saurabh@123"){
+  console.log("Wrong Username");
+}else{
+  console.log("Invalid Credentials");
+}
