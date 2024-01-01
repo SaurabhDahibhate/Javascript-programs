@@ -1,14 +1,81 @@
-User login System
+//User login System
 
-let user=prompt("enter user name");
-let pass=prompt("enter password");
+    let user=prompt("enter user name");
+    let pass=prompt("enter password");
+    
+    if(user=="Saurabh" && pass=="Saurabh@123"){
+      console.log("Login Successful");
+    }else if(user=="Saurabh"){
+      console.log("Wrong Password");
+    }else if(pass=="Saurabh@123"){
+      console.log("Wrong Username");
+    }else{
+      console.log("Invalid Credentials");
+    }
 
-if(user=="Saurabh" && pass=="Saurabh@123"){
-  console.log("Login Successful");
-}else if(user=="Saurabh"){
-  console.log("Wrong Password");
-}else if(pass=="Saurabh@123"){
-  console.log("Wrong Username");
-}else{
-  console.log("Invalid Credentials");
-}
+//Use logical operators to find whether the age of a person lies between 10 and 20?
+    let age=prompt("Enter your age");
+    if(age>=10 && age<=20){
+      console.log("your age lies between 10 to 20");
+    }
+    else{
+      console.log("your age not lies beteen 10 - 20");
+    } 
+
+//Demonstrate the use of switch case statements in JavaScript
+    let operator = prompt("Enter operator");
+    let firstNumber = Number(prompt("Enter first number"));
+    let secondNumber = Number(prompt("Enter second number"));
+    let result;
+
+    switch(operator) {
+      case "+":
+          result = firstNumber + secondNumber;
+          console.log("Number addition is = " + result);
+        break;
+      case "-":
+          result = firstNumber - secondNumber;
+          console.log("Number subtraction is = " + result);
+        break;
+      case "/":
+        result = firstNumber / secondNumber;
+        console.log("Number Division is = " + result);
+        break;
+      case "*":
+          result = firstNumber * secondNumber;
+          console.log("Number multiplication is = " + result);
+        break;
+      default:
+          console.log("You entered invalid operator");
+        } 
+
+//Write a Java Script program to find whether a number is Divisible by 2 and 3
+
+    let num=prompt("Enter a number to check divisible by 2 and 3");
+    if(num %2 == 0 && num %3 == 0){
+      console.log(num +" is divisible by 2 and 3");
+    }
+    else{
+      console.log(num +" number is not divisible by 2 and 3");
+    }
+
+
+//Write a JavaScript program to find whether a number is to Divisible by either 2 or 3
+  let num=prompt("Enter number to check number is divisible or not");
+  if(num%2==0 || num%3==0){
+  if(num%2==0){
+  console.log(num +" is divisible by 2");
+  }
+  else{
+  console.log(num +" is divisible by 3");
+  }
+  }
+  else{
+  console.log(num +" is not divisible by 2 and 3");
+  }
+
+
+
+//Print " You can Drive" or " You cannot Drive" based on age is greater than 18 age using ternary operator.
+    let age=prompt("Enter your age to check you drive or not");
+    age>=18 ? console.log("you can drive") : console.log("you cannot drive");
