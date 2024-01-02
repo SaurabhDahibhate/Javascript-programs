@@ -1,0 +1,75 @@
+/* let num=prompt("enter number for factorial");
+let fact=1;
+for(i=num;i>0;i--){
+fact*=i;
+}
+console.log("factorial of "+ num + " is " + fact ); */
+
+/*let demo={
+ name:"saurabh",
+ clg:"essp",
+ std:"10"
+ }
+ 
+ //Normal for loop
+ 
+ for (let i=0;i<Object.keys(demo).length;i++){
+ 
+ console.log("Details are "+ Object.keys(demo)[i]+" is " +demo[Object.keys(demo)[i]]);
+ } 
+ 
+ //with for in loop
+ 
+ for (let i in demo){
+ 
+ console.log("Details are "+ i +" is " +demo[i]);
+ }
+ */
+ 
+ 
+ /* let cn=5;
+ let i=0;
+ while( i!=cn){
+ console.log("enter a valid number");
+   i = prompt("Enter a number");
+ 
+ }
+ console.log("Yes "+ i +" is valid number"); */
+ 
+ /* let a=Number(prompt("enter first number"));
+  let b=Number(prompt("enter first number"));
+ let c=Number(prompt("enter first number"));
+ let d=Number(prompt("enter first number"));
+ 
+ const mean=(a,b,c,d)=>{
+  return (a+b+c+d)/4
+ }
+ 
+ console.log(mean(a,b,c,d));
+ 
+  */
+  
+  let name="Saurabh";
+  console.log(name.length);
+  
+   
+  let name2='Saurabh';
+  console.log(name2);
+  
+  let name3="Saur'abh";
+  //let name3="Saur\'abh"
+  console.log(name3);
+  
+  let name4="Name \n Saurabh";
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
