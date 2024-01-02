@@ -1,0 +1,26 @@
+/* let name="Saurabh\'";
+console.log(name.length); //length is a property
+                          // this consider \' as one letter output length is 8'
+
+console.log(name.toUpperCase()); //toUpperCase function use
+console.log(name.toLowerCase()); //toLowerCase function
+console.log(name.slice(2,4)); //slice function with two parameters
+console.log(name.slice(3)); //slice with one parameter
+console.log(name.replace("abh","rya"));// replace function
+let name1="Omkar"
+console.log(name.concat("is a friend of ", name1)); //concat fun
+let name2="      Saurabh    Dahibhate       "
+console.log(name2.trim()); //trim fun */
+
+//Practice set on String
+
+//output of following
+let str="Saurabh\'";
+console.log(str.length);
+
+
+//2 include() startwith() endwith() function
+let text = "Hello world, welcome to the universe.";
+let word= "Hello";
+let result = text.includes(word);//include return true and false value
+console.log( `${word}` + (result=true ? " is there " : "is not") + "in the sentence");
