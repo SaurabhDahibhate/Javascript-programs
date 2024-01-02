@@ -39,3 +39,40 @@ let result=text.slice(15);
 console.log(result); */
 
 /* Try to change 4th character of a given string. Were you alble to do it? No we can't able to do that because of strings are immutables */
+
+
+
+
+//Create an array of numbers and take input from the user to add numbers to ths array 
+//Keep adding numbers to the array in 1.q until O is added to the  Array
+let arr=[1,2,3,4,5]
+let num;
+do{
+num=Number(prompt("enter number to add"));
+arr.push(num);
+console.log(arr);
+}while(num!=0) 
+
+
+//filter for numbers divsible by 10 from aiven array
+let arr=[10,2,30,4,50]
+
+let div =arr.filter((x)=>{
+return x%10==0
+})
+console.log(div); 
+
+// Create Map an array of square of given numbers.
+let arr=[1,2,3,4,5]
+let ans= arr.map((x)=>{
+return x*x
+})
+console.log(ans); 
+ 
+
+//Use Reduce to calculate factorial of a given number from an array of first n natural numbers (n being the number whose factorial needs to be calculated)
+let arr=[1,2,3,4,5]
+let ans= arr.reduce((x1,x2)=>{
+return x1*x2
+})
+console.log(ans);
