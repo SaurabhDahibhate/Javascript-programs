@@ -56,11 +56,18 @@ console.log("factorial of "+ num + " is " + fact ); */
   let name2='Saurabh';
   console.log(name2);
   
+  //escape sequence character \
   let name3="Saur'abh";
   //let name3="Saur\'abh"
   console.log(name3);
   
   let name4="Name \n Saurabh";
+  
+  //template literals with variable access
+  let a="Nikhil";
+  let b="Shubham";
+  let sentence =`${a} is friend of ${b}`;
+  console.log(sentence);
   
  
  
