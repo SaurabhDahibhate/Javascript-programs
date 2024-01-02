@@ -14,13 +14,28 @@ console.log(name2.trim()); //trim fun */
 
 //Practice set on String
 
-//output of following
-let str="Saurabh\'";
-console.log(str.length);
+//What will the following print in JavaScript? Console.log("har \"".length) 
+console.log("har\"".length);
+output will be 4 length of string
 
 
-//2 include() startwith() endwith() function
-let text = "Hello world, welcome to the universe.";
-let word= "Hello";
+// Explore the includes, starts With & ends with functions of a string 
+include() startwith() endwith() function
+let text = "Hello world, welcome to the universe.";  
+
+ let word= "Hello";
 let result = text.includes(word);//include return true and false value
-console.log( `${word}` + (result=true ? " is there " : "is not") + "in the sentence");
+console.log( `${word}` + (result=true ? " is there " : "is not") + "in the sentence"); */
+
+
+//Write a program to convert a given string to lowercase
+let result=text.toLowerCase()
+console.log(result); 
+
+// Extract the amount out of this string
+" Please give Rs 1000"
+let text="Please give Rs 1000"
+let result=text.slice(15);
+console.log(result); */
+
+/* Try to change 4th character of a given string. Were you alble to do it? No we can't able to do that because of strings are immutables */
