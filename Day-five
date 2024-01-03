@@ -22,3 +22,27 @@ while(guessnum!==num){
 console.log("You have guessed correct number is "+ guessnum);
 console.log("your score is "+ (100-guesno));
 console.log("you have taken "+ guesno + " attempts to guess Correct number");
+//Write a program using prompt function to take iput of age as a value from the user and use alert to tell him if he can drive!
+//In QI use confirm to ask the user if he wants. to see the prompt again
+//In the previous question, use console error to lay the error if the age entered is negative
+ let b=true
+while(b==true){
+let age=Number(prompt("enter your age"));
+if(age>18){
+  alert("you can drive");
+  b=confirm("You want to check again");
+}else if(age<0){
+  console.error("You have entered wrong age");
+}
+else{
+  alert("you can't drive");
+  b=confirm("You want to check again");
+}
+}
+console.log("Thankyou"); 
+
+//Write a program to change the url to google.com (Redirection) / if users enters a number greater than 4
+let num=Number(prompt("Enter a number"));
+if(num>4){
+window.location.href = "https://www.google.com";
+}
