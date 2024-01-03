@@ -1,0 +1,24 @@
+// Generate random number here
+// Keep asking for the number until the correct number is guessed
+// Increment the chances variable
+// Eventually after the game is over, display the (100 - Number of chances) and the actual number
+ 
+let floatvalue=Math.random()*50;
+let guessnum = Math.trunc( floatvalue );
+let num;
+let guesno=0;
+while(guessnum!==num){
+ num=Number(prompt("guess the number"));
+	if(num>guessnum){
+  	console.log("you have entered large number than actual number");
+    console.log("you have left " + (99 - guesno)+ " Attempts");
+	}else{
+  	console.log("You have entered smaller number");
+    console.log("you have left " + (99 - guesno)+ " Attempts");
+  }
+ guesno++;
+ } 
+
+console.log("You have guessed correct number is "+ guessnum);
+console.log("your score is "+ (100-guesno));
+console.log("you have taken "+ guesno + " attempts to guess Correct number");
