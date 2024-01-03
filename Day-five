@@ -46,3 +46,12 @@ let num=Number(prompt("Enter a number"));
 if(num>4){
 window.location.href = "https://www.google.com";
 }
+
+//ask user and Change the background color to red, green, yellow any other
+let a=true;
+
+while(a==true){
+let color=prompt("Enter a number");
+document.body.style.background=color;
+a=confirm("do you want to change again");
+}
